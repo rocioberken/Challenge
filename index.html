@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invgate Challenge Rocio Berken</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="profile" id="section__a">
+        <div id="toggle">
+          <input type="checkbox" />
+          <span class="toggle"></span>
+          <span class="toggle"></span>
+          <span class="toggle"></span>
+          <ul class="menu">
+            <li class="menu__item" id="user">
+              <a href="">
+                <div class="userimage user1">
+                  <span class="status"></span>
+                </div>
+                <h3 class=""> Mike Pods </h3>
+                <img src="./img/caret-down-solid.svg" alt="Mike Pods" class=" ">
+              </a>
+            </li>
+            <li class="menu__item --active">
+              <a href="">
+                <img src="./img/hard-drive-regular.svg" alt="My drive" class=" "> My Drive </a>
+            </li>
+            <li class="menu__item ">
+              <a href="">
+                <img src="./img/desktop-regular.svg" alt="Devices" class=" "> Devices </a>
+            </li>
+            <li class="menu__item ">
+              <a href="">
+                <img src="./img/user-plus-regular.svg" alt="Shared with me" class=" "> Shared with me </a>
+            </li>
+            <li class="menu__item ">
+              <a href="">
+                <img src="./img/star-regular.svg" alt="Favourites" class=" "> Favourites </a>
+            </li>
+            <li class="menu__item ">
+              <a href="">
+                <img src="./img/trash-regular.svg" alt="Deleted" class=" "> Deleted </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="dashboard" id="section__b">
+        <div class="dashboard__title">
+          <h2> Recent files</h2>
+          <div class="users">
+            <a href="" class="userimage user3"></a>
+            <a href="" class="userimage user2"></a>
+            <a href="" class="userimage user3">
+              <span class="status"></span>
+            </a>
+            <a href="" class="userimage plus">
+              <img src="./img/plus-regular.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <ul class="dashboard__content">
+          <li class="item big" style=" background: url(./img/item_1.jpg) no-repeat center center;background-size: cover;">
+            <p> Interior.jpg <br>
+              <span class="owner"> Me - 4MB </span>
+            </p>
+            <span class="time"> 1h </span>
+          </li>
+          <li class="item" style=" background: url(./img/item_2.jpg) no-repeat center center;background-size: cover;">
+            <p> Website BG.jpg <br>
+              <span class="owner"> Peter - 3MB </span>
+            </p>
+            <span class="time"> 2d </span>
+          </li>
+          <li class="item" style="  ">
+            <p> Track.mp3 <br>
+              <span class="owner"> Me - 3.3 MB </span>
+            </p>
+            <span class="time"> 2d </span>
+            <span class="play">
+              <img src="./img/play.svg" alt="">
+            </span>
+          </li>
+          <li class="item big play" style=" background: url(./img/item_4.jpg) no-repeat center center;background-size: cover;">
+            <p> Architecture.mp4 <br>
+              <span class="owner"> John - 14.2 MB </span>
+            </p>
+            <span class="time"> 1d </span>
+            <span class="play">
+                <img src="./img/play.svg" alt="">
+              </span>
+          </li>
+        </ul>
+      </section>
+      <section class="notifications" id="section__c">
+        <div class="notifications__title">
+          <h3 class="active"> Activity</h3>
+          <h3> Information</h3>
+        </div>
+        <ul class="notifications__panel">
+          <li>
+            <a href="" class="userimage user1">
+              <span class="status"></span>
+            </a>
+            <div class="action">
+              <p class="action__description"> You <strong>Added </strong> a file in <img src="./img/folder.svg" alt=""> Personas </p>
+              <p class="action__files">
+                <a class="fileicon iconpdf"></a>personas_v1.pdf
+              </p>
+            </div>
+            <span class="time">1h</span>
+          </li>
+          <li>
+            <a href="" class="userimage user1">
+              <span class="status"></span>
+            </a>
+            <div class="action">
+              <p class="action__description"> You <strong>Shared </strong> a file in <img src="./img/folder.svg" alt=""> Website </p>
+              <p class="action__files">
+                <a class="fileicon iconpdf"></a> Action_points.pdf
+              </p>
+            </div>
+            <span class="time">3h</span>
+          </li>
+          <li>
+            <a href="" class="userimage user2"></a>
+            <div class="action">
+              <p class="action__description"> Anja <strong>Deleted</strong> 3 files <img src="./img/folder.svg" alt=""> Personas </p>
+              <p class="action__files">
+                <a class="fileicon iconimage"></a> Pretty_lady.png <br>
+                <a class="fileicon iconword"></a> Businessplan.doc <br>
+                <a class="fileicon iconimage"></a> 2_pretty_ladies.jpg <br>
+              </p>
+            </div>
+            <span class="time">8h</span>
+          </li>
+          <li>
+            <a href="" class="userimage user3"></a>
+            <div class="action">
+              <p class="action__description"> Matt <strong>Added</strong> a file in Personas </p>
+              <p class="action__files">
+                <a class="fileicon iconcsv"></a>expenditures.xls
+              </p>
+            </div>
+            <span class="time">10h</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
